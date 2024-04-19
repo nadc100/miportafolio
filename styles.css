@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+nav {
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 33px;
+    width: 100%;
+    margin: auto;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    padding-right: 5%;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+nav .logo {
+    float: left;
+    margin-left: 20px;
+    width: 50px;
+}
+
+header {
+    padding: 50px;
+    text-align: left;
+    position: relative;
+    width: 66%;
+    height: 300px;
+    margin: auto;
+    background-image: url('./imgs/coverimage.webp');
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.header-card{
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.6);
+    padding: 1.2rem;
+    margin: 1rem;
+}
+
+.header-image {
+    position: absolute;
+    top: 55%;
+    right: 30px;
+    transform: translateY(-50%);
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.header-title {
+    font-size: 3rem;
+    font-weight: 400;
+    font-weight: bold;
+}
+
+.header-subtitle {
+    font-size: 2rem;
+    margin: 5px 0;
+}
+
+.header-text {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-links li a:hover {
+    color: #12de56;
+}
+
+section {
+    width: 66%;
+    padding: 50px 20px;
+    margin: auto;
+    font-size: larger;
+}
+
+h2 {
+    text-align: center;
+}
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 66%;
+    margin: auto;
+
+}
+
+.tarjetas li {
+    list-style-type: none;
+    padding-left: 10%;
+    padding-right: 5%;
+    font-size: 1.2rem;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-image: linear-gradient(to right top, #4307ef, #3241f6, #325ef9, #4477f7, #5e8df2, #569ff7, #5ab0f8, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+
+.tarjetas li i {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+
+.fas{
+   color:azure;
+   font-size: xx-large;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.form-container {
+    flex: 1;
+    padding: 20px;
+}
+
+form {
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
