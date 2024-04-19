@@ -26,6 +26,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin-left: 20px;
+    color: black;
 }
 
 nav ul li a {
