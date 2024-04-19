@@ -65,6 +65,6 @@ Además, tengo experiencia en el desarrollo de aplicaciones fullstack utilizando
 
 ## Contacto
 
-Si deseas ponerse en contacto conmigo, por favor, llena el formulario de contacto en mi [página web](#contact).
+Si deseas ponerse en contacto conmigo, por favor, llena el formulario de contacto en mi [página web](https://meta-analitica.com/).
 
 Desarrollado por Néstor Alvaro Díaz Castro &COPY; 2024
