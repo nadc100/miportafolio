@@ -45,27 +45,26 @@ nav .logo {
 }
 
 header {
+    color:white;
     padding: 50px;
     text-align: left;
     position: relative;
     width: 66%;
     height: 300px;
     margin: auto;
-    background-image: url('./imgs/coverimage.webp');
-    background-size: cover;
     border-radius: 10px;
 }
 
 .header-card{
     border-radius: 20px;
-    background-color: rgba(255,255,255,0.6);
-    padding: 1.2rem;
+    background-color: rgba(28,1,76,1);
+    padding: 2rem;
     margin: 1rem;
 }
 
 .header-image {
     position: absolute;
-    top: 55%;
+    top: 57%;
     right: 30px;
     transform: translateY(-50%);
     width: 300px;
